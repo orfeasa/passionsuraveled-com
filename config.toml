@@ -1,21 +1,21 @@
-baseURL = "http://example.com/"
+baseURL = ""
 languageCode = "en-us"
-title = "Minimal"
+title = "Passion(s) Unraveled"
 theme = "minimal"
-disqusShortname = "username" # delete this to disable disqus comments
+# disqusShortname = "username" # delete this to disable disqus comments
 googleAnalytics = ""
 
 [params]
-    author = "Calin Tataru"
-    description = "Personal blog theme powered by Hugo"
-    githubUsername = "#"
-    accent = "red"
+    author = "Passion(s) Unraveled podcast"
+    description = "Your next favourite podcast!"
+    # githubUsername = "#"
+    accent = "#FF928B"
     showBorder = true
     backgroundColor = "white"
     font = "Raleway" # should match the name on Google Fonts!
     highlight = true
     highlightStyle = "default"
-    highlightLanguages = ["go", "haskell", "kotlin", "scala", "swift"]
+    # highlightLanguages = ["go", "haskell", "kotlin", "scala", "swift"]
 
 [[menu.main]]
     url = "/"
