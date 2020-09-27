@@ -3,7 +3,7 @@ languageCode = "en-us"
 title = "Passion(s) Unraveled"
 theme = "minimal"
 # disqusShortname = "username" # delete this to disable disqus comments
-googleAnalytics = ""
+googleAnalytics = "UA-156939402-2"
 
 [params]
     author = "Passion(s) Unraveled podcast"
@@ -21,35 +21,47 @@ googleAnalytics = ""
     weight = 1
 
 [[menu.main]]
-    url = "/post/"
-    name = "Episodes"
-    weight = 2
-
-[[menu.main]]
     url = "/about/"
     name = "About"
-    weight = 3
+    weight = 10
+
+[[menu.main]]
+    url = "/episodes/"
+    name = "Episodes"
+    weight = 20
+
+[[menu.main]]
+    url = "/hosts/"
+    name = "Hosts"
+    weight = 30
+
+[[menu.main]]
+    url = "/guests/"
+    name = "Guests"
+    weight = 40
+
 
 # Social icons to be shown on the right-hand side of the navigation bar.
 # The "name" field should match the name of the icon in Font Awesome.
 # The list of available icons can be found at http://fontawesome.io/icons.
 
-[[menu.icon]]
-    url = "mailto:gradinaru.alex@gmail.com?&cc=orfeas@orfeasa.com&subject=Passions%20Uraveled%20Podcast"
-    name = "envelope-o"
-    weight = 1
 
 [[menu.icon]]
     url = "https://podcasts.apple.com/"
     name = "podcast"
-    weight = 2
+    weight = 1
 
 [[menu.icon]]
     url = "https://open.spotify.com/show/"
     name = "spotify"
-    weight = 3
+    weight = 2
 
 [[menu.icon]]
     url = "#"
     name = "rss"
+    weight = 3
+
+[[menu.icon]]
+    url = "mailto:gradinaru.alex@gmail.com?&cc=orfeas@orfeasa.com&subject=Passions%20Uraveled%20Podcast"
+    name = "envelope-o"
     weight = 4
